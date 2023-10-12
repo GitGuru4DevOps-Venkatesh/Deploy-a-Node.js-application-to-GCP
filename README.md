@@ -1,5 +1,6 @@
 # Deploy-a-Node.js-application-to-GCP
 To create a GitHub Actions workflow file that deploys a Node.js application to Google Cloud Platform (GCP) using Terraform, you'll need to define the necessary steps and environment variables in a YAML file. Below is an example workflow file for this purpose:
+
 ![image](https://github.com/GitGuru4DevOps-Venkatesh/Deploy-a-Node.js-application-to-GCP/assets/128009454/717885c0-31cc-454c-ad9b-1192944541d3)
 
 ```yaml
