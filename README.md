@@ -71,7 +71,8 @@ Make sure to replace the placeholders like `${{ secrets.GCP_PROJECT_ID }}` and `
 
 This is a basic example, and your specific deployment process may vary depending on your Node.js application and GCP resources.
 
-===========================================================================================================================================================================
+==================================================================
+
 I'll elaborate on the steps needed to set up a GitHub Actions workflow to deploy a Node.js application to Google Cloud Platform (GCP) using Terraform in real-time. This guide assumes you have a Node.js application, a GCP account, and a Terraform configuration ready. If not, create your Node.js app and set up the necessary GCP resources before proceeding.
 ====
 Step 1: Set Up GitHub Repository
@@ -179,7 +180,8 @@ Step 7: Monitor the Workflow
 Once you push the changes, the GitHub Actions workflow will be triggered automatically. You can monitor the progress and any potential errors in the "Actions" tab of your GitHub repository.
 
 Please adapt this example to your specific project structure, Terraform configurations, and deployment steps. It's essential to follow best practices for securing and managing secrets and credentials in your workflow.
-===============================================================================================================================================================================================================================
+=============================================================================
+
 If you don't have a Node.js application and Terraform configuration ready, you'll need to create those components before setting up the GitHub Actions workflow for deployment. Below are the steps to create a simple Node.js application and a basic Terraform configuration to get you started:
 
 **Step 1: Create a Simple Node.js Application**
